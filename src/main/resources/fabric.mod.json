@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sv-mod",
+	"version": "${version}",
+	"name": "SV Mod",
+	"description": "Yet another troll mod made by IslamZaoui",
+	"authors": [
+		"Islam Zaoui"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sv-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.igdz77.svmod.SVMod"
+		],
+		"client": [
+			"net.igdz77.svmod.SVModClient"
+		],
+		"fabric-datagen": [
+			"net.igdz77.svmod.SVModDataGenerator"
+		]
+	},
+	"mixins": [
+		"sv-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
