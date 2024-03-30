@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":[
+    "*##",
+    "HA#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "*": {
+      "item": "minecraft:nether_star"
+    },
+    "H": {
+      "item": "minecraft:golden_hoe"
+    },
+    "A": {
+      "item": "minecraft:golden_axe"
+    }
+  },
+  "result": {
+    "item": "svmod:sv",
+    "count": 1
+  }
+}
