@@ -3,30 +3,30 @@
 	"id": "sv-mod",
 	"version": "${version}",
 	"name": "SV Mod",
-	"description": "Yet another troll mod made by IslamZaoui",
+	"description": "Yet another trolling mod made by IslamZaoui",
 	"authors": [
-		"Islam Zaoui"
+		"IslamZaoui"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sv-mod/icon.png",
+	"icon": "assets/SovietUnionMemeMod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.igdz77.svmod.SVMod"
+			"net.igdz77.sovietunionmememod.SVMod"
 		],
 		"client": [
-			"net.igdz77.svmod.SVModClient"
+			"net.igdz77.sovietunionmememod.SVModClient"
 		],
 		"fabric-datagen": [
-			"net.igdz77.svmod.SVModDataGenerator"
+			"net.igdz77.sovietunionmememod.SVModDataGenerator"
 		]
 	},
 	"mixins": [
-		"sv-mod.mixins.json"
+		"sovietunionmememod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

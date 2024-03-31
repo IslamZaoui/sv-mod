@@ -1,0 +1,12 @@
+{
+  "sv_sound": {
+    "subtitle": "subtitles.sovietunionmememod.sv_sound",
+    "sounds": [
+      {
+        "name": "sovietunionmememod:sv_sound",
+        "stream": true,
+        "preload": true
+      }
+    ]
+  }
+}

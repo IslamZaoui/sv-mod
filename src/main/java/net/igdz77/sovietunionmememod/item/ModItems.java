@@ -1,9 +1,10 @@
-package net.igdz77.svmod.item;
+package net.igdz77.sovietunionmememod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.igdz77.svmod.SVMod;
+import net.igdz77.sovietunionmememod.SVMod;
+import net.igdz77.sovietunionmememod.item.custom.SVItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -11,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SV = registerModItem("sv", new Item(new FabricItemSettings()));
+    public static final SVItem SV = (SVItem) registerModItem("soviet-union-flag", new SVItem(new FabricItemSettings()));
 
     private static Item registerModItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SVMod.MOD_ID, name), item);
