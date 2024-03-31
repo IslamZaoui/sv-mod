@@ -47,8 +47,8 @@ My mod is available in [modrinth](https://modrinth.com/), install it from [here]
 ## Contributing
 1. Clone the repository
    ```
-   git clone $repo_url
-   cd $mod_name
+   git clone https://github.com/islamZaoui/sv-mod
+   cd sv-mod
    ```
 1. Generate the Minecraft source code
    ```
