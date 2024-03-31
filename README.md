@@ -8,13 +8,13 @@ Yet another trolling mod that embraces the soviet union.
 
 this is just a mod for trolling and having fun, I'm not even a Russian or communist.
 
-have fun with this mod and don't use it in an inappropriate way.
+have fun with this mod and don't use it inappropriately.
 
 ## Inspiration
 
 I want to make this meme I saw on Instagram reel come true.
 
-you can watch is [here](https://www.instagram.com/p/C4x2NgqMQeB/)
+you can watch it [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
 ## Features
 
@@ -32,7 +32,7 @@ you can watch is [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
 ### Modrinth
 
-My mod is avaliable in [modrinth](https://modrinth.com/), install in from [here](https://modrinth.com/mod/soviet-union-meme-mod).
+My mod is available in [modrinth](https://modrinth.com/), install it from [here](https://modrinth.com/mod/soviet-union-meme-mod).
 
 ### Manually
 
