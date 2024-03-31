@@ -10,6 +10,12 @@ this is just a mod for trolling and having fun, I'm not even a Russian or commun
 
 have fun with this mod and don't use it in an inappropriate way.
 
+## Inspiration
+
+I want to make this meme I saw on Instagram reel come true.
+
+you can watch is [here](https://www.instagram.com/p/C4x2NgqMQeB/)
+
 ## Features
 
 - craftable soviet union flag item that can play the soviet union national anthem.
