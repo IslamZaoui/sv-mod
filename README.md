@@ -8,12 +8,22 @@ Yet another trolling mod that embraces the soviet union.
 
 this is just a mod for trolling and having fun, I'm not even a Russian or communist.
 
-have fun with this mod and don't use it in an inappropriate way.
+have fun with this mod and don't use it inappropriately.
+
+## Inspiration
+
+I created this after seeing a meme on Instagram.
+
+you can watch it [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
 ## Features
 
 - craftable soviet union flag item that can play the soviet union national anthem.
 - works in multiplayer.
+
+## Showcase
+
+Not available until the official release.
 
 ## To do List
 
@@ -26,7 +36,7 @@ have fun with this mod and don't use it in an inappropriate way.
 
 ### Modrinth
 
-My mod is avaliable in [modrinth](https://modrinth.com/), install in from [here](https://modrinth.com/mod/soviet-union-meme-mod).
+My mod is available in [modrinth](https://modrinth.com/), install it from [here](https://modrinth.com/mod/soviet-union-meme-mod).
 
 ### Manually
 
@@ -41,8 +51,8 @@ My mod is avaliable in [modrinth](https://modrinth.com/), install in from [here]
 ## Contributing
 1. Clone the repository
    ```
-   git clone $repo_url
-   cd $mod_name
+   git clone https://github.com/islamZaoui/sv-mod
+   cd sv-mod
    ```
 1. Generate the Minecraft source code
    ```
