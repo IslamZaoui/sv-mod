@@ -1,4 +1,4 @@
-package net.igdz77.sovietunionmememod.mixin;
+package net.IslamZaoui.sovietunionmememod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,4 +1,4 @@
-package net.igdz77.sovietunionmememod;
+package net.IslamZaoui.sovietunionmememod;
 
 import net.fabricmc.api.ClientModInitializer;
 

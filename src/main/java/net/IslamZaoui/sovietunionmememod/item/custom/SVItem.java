@@ -1,6 +1,6 @@
-package net.igdz77.sovietunionmememod.item.custom;
+package net.IslamZaoui.sovietunionmememod.item.custom;
 
-import net.igdz77.sovietunionmememod.sound.ModSounds;
+import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;

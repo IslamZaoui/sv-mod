@@ -1,12 +1,12 @@
-package net.igdz77.sovietunionmememod.sound;
+package net.IslamZaoui.sovietunionmememod.sound;
 
-import net.igdz77.sovietunionmememod.SVMod;
+import net.IslamZaoui.sovietunionmememod.SVMod;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
-import static net.igdz77.sovietunionmememod.SVMod.MOD_ID;
+import static net.IslamZaoui.sovietunionmememod.SVMod.MOD_ID;
 
 public class ModSounds {
     public static final Identifier SV_SOUND_ID = new Identifier(MOD_ID, "sv_sound");

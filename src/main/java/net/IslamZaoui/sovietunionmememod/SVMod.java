@@ -1,9 +1,9 @@
-package net.igdz77.sovietunionmememod;
+package net.IslamZaoui.sovietunionmememod;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.igdz77.sovietunionmememod.item.ModItems;
-import net.igdz77.sovietunionmememod.sound.ModSounds;
+import net.IslamZaoui.sovietunionmememod.item.ModItems;
+import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
