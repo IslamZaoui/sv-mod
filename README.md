@@ -8,21 +8,28 @@ Yet another trolling mod that embraces the soviet union.
 
 this is just a mod for trolling and having fun, I'm not even a Russian or communist.
 
-have fun with this mod and don't use it in an inappropriate way
+have fun with this mod and don't use it in an inappropriate way.
 
 ## Features
 
-- craftable soviet union flag item that can play the soviet union national anthem
-- works in multiplayer
+- craftable soviet union flag item that can play the soviet union national anthem.
+- works in multiplayer.
 
 ## To do List
 
-- [ ] adding a custom golden hammer, sickle, and star
-- [ ] adding custom mobs that drop golden hammer, sickle, and star
-- [ ] adding a custom Minecraft banner with a communism symbol
-- [ ] adding custom effects and mechanisms to the flag
+- [ ] adding a custom golden hammer, sickle, and star.
+- [ ] adding custom mobs that drop golden hammer, sickle, and star.
+- [ ] adding a custom Minecraft banner with a communism symbol.
+- [ ] adding custom effects and mechanisms to the flag.
 
 ## Installation
+
+### Modrinth
+
+My mod is avaliable in [modrinth](https://modrinth.com/), install in from [here](https://modrinth.com/mod/soviet-union-meme-mod).
+
+### Manually
+
 1. Download and run the [Fabric installer](https://fabricmc.net/use).
    - Note: this step may vary if you aren't using the vanilla launcher
      or an old version of Minecraft.
