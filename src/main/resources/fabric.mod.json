@@ -1,40 +1,40 @@
 {
-	"schemaVersion": 1,
-	"id": "sovietunionmememod",
-	"version": "${version}",
-	"name": "Soviet union meme Mod",
-	"description": "Yet another trolling mod that EMBRACE the soviet union.",
-	"authors": [
-		"IslamZaoui"
-	],
-	"contact": {
-		"homepage": "https://github.com/IslamZaoui/sv-mod",
-		"sources": "https://github.com/IslamZaoui/sv-mod"
-	},
-	"license": "MIT",
-	"icon": "assets/sovietunionmememod/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.IslamZaoui.sovietunionmememod.SVMod"
-		],
-		"client": [
-			"net.IslamZaoui.sovietunionmememod.SVModClient"
-		],
-		"fabric-datagen": [
-			"net.IslamZaoui.sovietunionmememod.SVModDataGenerator"
-		]
-	},
-	"mixins": [
-		"sovietunionmememod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "sovietunionmememod",
+  "version": "${version}",
+  "name": "Soviet union meme Mod",
+  "description": "Yet another trolling mod that EMBRACE the soviet union.",
+  "authors": [
+    "IslamZaoui"
+  ],
+  "contact": {
+    "homepage": "https://github.com/IslamZaoui/sv-mod",
+    "sources": "https://github.com/IslamZaoui/sv-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/sovietunionmememod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.IslamZaoui.sovietunionmememod.SVMod"
+    ],
+    "client": [
+      "net.IslamZaoui.sovietunionmememod.SVModClient"
+    ],
+    "fabric-datagen": [
+      "net.IslamZaoui.sovietunionmememod.SVModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "sovietunionmememod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }

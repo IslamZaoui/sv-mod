@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g",
+    "g"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "sovietunionmememod:golden_bar",
+    "count": 3
+  },
+  "category": "ingredients",
+  "group": "golden_bar"
+}

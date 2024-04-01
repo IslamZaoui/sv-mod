@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern":[
+  "category": "tools",
+  "pattern": [
     "*##",
     "HA#",
     "###"
@@ -23,5 +23,6 @@
   "result": {
     "item": "sovietunionmememod:soviet-union-flag",
     "count": 1
-  }
+  },
+  "group": "sovietunionflag"
 }

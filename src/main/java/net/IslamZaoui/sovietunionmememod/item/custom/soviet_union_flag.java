@@ -1,7 +1,7 @@
 package net.IslamZaoui.sovietunionmememod.item.custom;
 
-import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
 import net.IslamZaoui.sovietunionmememod.damage_type.ModDamageTypes;
+import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
@@ -25,9 +25,9 @@ import java.util.function.Predicate;
 
 import static net.IslamZaoui.sovietunionmememod.config.ModConfigs.SOVIET_UNION_FLAG_DAMAGE;
 
-public class SVItem extends BowItem {
+public class soviet_union_flag extends BowItem {
 
-    public SVItem(FabricItemSettings settings) {
+    public soviet_union_flag(FabricItemSettings settings) {
         super(settings);
     }
 

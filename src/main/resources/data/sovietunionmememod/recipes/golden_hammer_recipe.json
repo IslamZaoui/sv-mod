@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gSg",
+    " S "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "sovietunionmememod:golden_bar"
+    }
+  },
+  "result": {
+    "item": "sovietunionmememod:golden_hammer",
+    "count": 1
+  },
+  "category": "tools",
+  "group": "golden_hammer"
+}

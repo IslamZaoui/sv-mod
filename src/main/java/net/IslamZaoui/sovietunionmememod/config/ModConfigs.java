@@ -1,14 +1,13 @@
 package net.IslamZaoui.sovietunionmememod.config;
 
-import net.IslamZaoui.sovietunionmememod.SVMod;
 import com.mojang.datafixers.util.Pair;
+import net.IslamZaoui.sovietunionmememod.SVMod;
 
 public class ModConfigs {
-    public static SimpleConfig CONFIG;
-    private static ModConfigProvider configs;
-
-    public static float SOVIET_UNION_FLAG_DAMAGE;
     public static final float DEFAULT_SOVIET_UNION_FLAG_DAMAGE = 2.5f;
+    public static SimpleConfig CONFIG;
+    public static float SOVIET_UNION_FLAG_DAMAGE;
+    private static ModConfigProvider configs;
 
     public static void registerConfigs() {
         configs = new ModConfigProvider();
