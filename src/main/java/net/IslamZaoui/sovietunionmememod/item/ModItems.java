@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final SVItem SV = (SVItem) registerModItem("soviet-union-flag", new SVItem(new FabricItemSettings()));
+    public static final SVItem SV = (SVItem) registerModItem("soviet-union-flag", new SVItem(new FabricItemSettings().maxCount(1)));
 
     private static Item registerModItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SVMod.MOD_ID, name), item);

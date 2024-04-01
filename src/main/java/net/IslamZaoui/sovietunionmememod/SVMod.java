@@ -1,5 +1,6 @@
 package net.IslamZaoui.sovietunionmememod;
 
+import net.IslamZaoui.sovietunionmememod.config.ModConfigs;
 import net.fabricmc.api.ModInitializer;
 
 import net.IslamZaoui.sovietunionmememod.item.ModItems;
@@ -13,6 +14,7 @@ public class SVMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfigs.registerConfigs();
 		ModSounds.registerModSounds();
 		ModItems.registerModItems();
 	}

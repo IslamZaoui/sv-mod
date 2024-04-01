@@ -1,6 +1,8 @@
 package net.IslamZaoui.sovietunionmememod.item.custom;
 
 import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
+import net.IslamZaoui.sovietunionmememod.damage_type.ModDamageTypes;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -21,11 +23,12 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.function.Predicate;
 
+import static net.IslamZaoui.sovietunionmememod.config.ModConfigs.SOVIET_UNION_FLAG_DAMAGE;
+
 public class SVItem extends BowItem {
 
-    public SVItem(Settings settings) {
+    public SVItem(FabricItemSettings settings) {
         super(settings);
-        settings.maxCount(1);
     }
 
     @Override
@@ -69,6 +72,12 @@ public class SVItem extends BowItem {
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         target.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 6000, 4), attacker);
-        return super.postHit(stack, target, attacker);
+        target.damage(ModDamageTypes.of(target.getWorld(), ModDamageTypes.SVFlagDamageType), SOVIET_UNION_FLAG_DAMAGE);
+        return true;
+    }
+
+    @Override
+    public boolean isFireproof() {
+        return true;
     }
 }

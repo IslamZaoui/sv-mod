@@ -16,14 +16,14 @@ I created this after seeing a meme on Instagram.
 
 you can watch it [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
+## Showcase
+
+Not available until the official release.
+
 ## Features
 
 - craftable soviet union flag item that can play the soviet union national anthem.
 - works in multiplayer.
-
-## Showcase
-
-Not available until the official release.
 
 ## To do List
 
@@ -43,9 +43,9 @@ My mod is available in [modrinth](https://modrinth.com/), install it from [here]
 1. Download and run the [Fabric installer](https://fabricmc.net/use).
    - Note: this step may vary if you aren't using the vanilla launcher
      or an old version of Minecraft.
-1. Download the [Fabric API](https://minecraft.curseforge.com/projects/fabric)
+1. Download the [Fabric API](https://modrinth.com/mod/fabric-api)
    and move it to the mods folder (`.minecraft/mods`).
-1. Download this from the [releases page]($repo_url/releases)
+1. Download this from the [releases page](https://github.com/islamZaoui/sv-mod/releases)
    and move it to the mods folder (`.minecraft/mods`).
 
 ## Contributing
