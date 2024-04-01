@@ -12,7 +12,7 @@ have fun with this mod and don't use it inappropriately.
 
 ## Inspiration
 
-I want to make this meme I saw on Instagram reel come true.
+I created this after seeing a meme on Instagram.
 
 you can watch it [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
@@ -20,6 +20,10 @@ you can watch it [here](https://www.instagram.com/p/C4x2NgqMQeB/)
 
 - craftable soviet union flag item that can play the soviet union national anthem.
 - works in multiplayer.
+
+## Showcase
+
+Not available until the official release.
 
 ## To do List
 
