@@ -27,10 +27,10 @@ Not available until the official release.
 
 ## To do List
 
-- [ ] adding a custom golden hammer, sickle, and star.
+- [X] adding a custom golden hammer, and sickle.
+- [ ] adding a custom star.
 - [ ] adding custom mobs that drop golden hammer, sickle, and star.
 - [ ] adding a custom Minecraft banner with a communism symbol.
-- [ ] adding custom effects and mechanisms to the flag.
 
 ## Installation
 
