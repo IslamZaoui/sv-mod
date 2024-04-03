@@ -23,14 +23,14 @@ Not available until the official release.
 ## Features
 
 - craftable soviet union flag item that can play the soviet union national anthem.
-- golden hammer and sickle with good stats and effects.
+- Golden hammer and sickle with good stats and effects.
 - works in multiplayer.
+- custom advancement
 
 ## To do List
 
-- [X] adding a custom golden hammer, and sickle.
 - [ ] adding a custom star.
-- [ ] adding custom mobs that drop golden hammer, sickle, and star.
+- [ ] adding custom mobs that can drop golden hammer, sickle, and star.
 - [ ] adding a custom Minecraft banner with a communism symbol.
 
 ## Installation
