@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "welcome_back": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovietunionmememod:soviet_union_flag"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "sovietunionmememod:textures/gui/advancements/backgrounds/soviet_union.png",
+    "description": {
+      "translate": "advancement.sovietunionmememod.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "sovietunionmememod:soviet_union_flag"
+    },
+    "title": {
+      "translate": "advancement.sovietunionmememod.title"
+    }
+  },
+  "requirements": [
+    [
+      "welcome_back"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
