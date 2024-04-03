@@ -23,6 +23,7 @@ Not available until the official release.
 ## Features
 
 - craftable soviet union flag item that can play the soviet union national anthem.
+- golden hammer and sickle with good stats and effects.
 - works in multiplayer.
 
 ## To do List
