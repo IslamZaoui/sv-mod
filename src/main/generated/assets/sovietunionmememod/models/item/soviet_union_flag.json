@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sovietunionmememod:item/soviet_union_flag"
+  }
+}

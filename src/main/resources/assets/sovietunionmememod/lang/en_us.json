@@ -1,12 +1,13 @@
 {
   "itemgroup.soviet_union": "Soviet Union Meme Mod",
-  "item.sovietunionmememod.soviet-union-flag": "Soviet Union Flag",
+  "item.sovietunionmememod.soviet_union_flag": "Soviet Union Flag",
   "item.sovietunionmememod.golden_bar": "Golden Bar",
   "item.sovietunionmememod.golden_sickle": "Golden Sickle",
   "item.sovietunionmememod.golden_hammer": "Golden Hammer",
   "subtitles.sovietunionmememod.sv_sound": "soviet union anthem playing",
-  "item.sovietunionmememod.soviet-union-flag.tooltip": "Whoever does not miss the Soviet Union has no heart.",
-  "death.attack.sv-flag-msg": "%s was slain by %s with the communist power!",
-  "death.attack.sv-flag-msg.item": "%s was slain by %s with the communist power!",
-  "death.attack.sv-flag-msg.player": "%s was smashed by the communist power whilst trying to escape %s"
+  "item.sovietunionmememod.soviet_union_flag.tooltip": "§6Whoever does not miss the Soviet Union has no heart.",
+  "item.sovietunionmememod.golden_sickle.tooltip1": "§6Symbol of the Soviet Union's worker-peasant alliance.",
+  "item.sovietunionmememod.golden_sickle.tooltip2": "Right click on Crops to harvest double the amount.",
+  "advancement.sovietunionmememod.title": "Rise of the red",
+  "advancement.sovietunionmememod.description": "§4make the Soviet Union proud!"
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "sovietunionmememod:golden_bar"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    " G ",
+    "  G",
+    "BG "
+  ],
+  "result": {
+    "item": "sovietunionmememod:golden_sickle"
+  }
+}

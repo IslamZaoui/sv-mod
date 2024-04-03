@@ -1,13 +1,10 @@
 package net.IslamZaoui.sovietunionmememod.item.custom;
 
-import net.IslamZaoui.sovietunionmememod.damage_type.ModDamageTypes;
 import net.IslamZaoui.sovietunionmememod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.ItemStack;
@@ -23,17 +20,15 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static net.IslamZaoui.sovietunionmememod.config.ModConfigs.SOVIET_UNION_FLAG_DAMAGE;
+public class SovietUnionFlag extends BowItem {
 
-public class soviet_union_flag extends BowItem {
-
-    public soviet_union_flag(FabricItemSettings settings) {
+    public SovietUnionFlag(FabricItemSettings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.sovietunionmememod.soviet-union-flag.tooltip"));
+        tooltip.add(Text.translatable("item.sovietunionmememod.soviet_union_flag.tooltip"));
     }
 
     @Override
@@ -67,13 +62,6 @@ public class soviet_union_flag extends BowItem {
     @Override
     public Predicate<ItemStack> getProjectiles() {
         return ItemStack::isEmpty;
-    }
-
-    @Override
-    public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 6000, 4), attacker);
-        target.damage(ModDamageTypes.of(target.getWorld(), ModDamageTypes.SVFlagDamageType), SOVIET_UNION_FLAG_DAMAGE);
-        return true;
     }
 
     @Override

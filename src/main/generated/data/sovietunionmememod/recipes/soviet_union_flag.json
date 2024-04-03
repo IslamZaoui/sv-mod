@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "*": {
+      "item": "minecraft:nether_star"
+    },
+    "H": {
+      "item": "sovietunionmememod:golden_hammer"
+    },
+    "S": {
+      "item": "sovietunionmememod:golden_sickle"
+    }
+  },
+  "pattern": [
+    "*##",
+    "SH#",
+    "###"
+  ],
+  "result": {
+    "item": "sovietunionmememod:soviet_union_flag"
+  }
+}
