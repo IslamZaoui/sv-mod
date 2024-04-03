@@ -1,7 +1,6 @@
 package net.IslamZaoui.sovietunionmememod.util;
 
 import net.IslamZaoui.sovietunionmememod.item.ModItems;
-import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -9,8 +8,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
 
 import java.util.List;
-
-import static net.IslamZaoui.sovietunionmememod.SVMod.CGL;
+import java.util.Objects;
 
 public class ModToolEffects {
     private static final List<StatusEffectInstance> EFFECTS = List.of(
@@ -30,41 +28,39 @@ public class ModToolEffects {
     }
 
     private static void evaluateEffects(LivingEntity livingEntity) {
-        if (hasCorrectToolsEquipped(livingEntity))
+        if (hasCorrectToolsEquipped(livingEntity)) {
+            setGlowColor(livingEntity);
             addStatusEffects(livingEntity);
+        } else {
+            resetGlowColor(livingEntity);
+        }
+
     }
 
     private static void addStatusEffects(LivingEntity livingEntity) {
         boolean hasAllEffects = true;
-
         for (StatusEffectInstance statusEffect : ModToolEffects.EFFECTS) {
             if (!livingEntity.hasStatusEffect(statusEffect.getEffectType())) {
                 hasAllEffects = false;
                 break;
             }
         }
-
-        if (hasCorrectToolsEquipped(livingEntity)) {
-            setGlowColor(livingEntity);
-            if (!hasAllEffects) {
-                for (StatusEffectInstance statusEffect : ModToolEffects.EFFECTS) {
-                    livingEntity.addStatusEffect(new StatusEffectInstance(statusEffect));
-                }
+        if (!hasAllEffects) {
+            for (StatusEffectInstance statusEffect : ModToolEffects.EFFECTS) {
+                livingEntity.addStatusEffect(new StatusEffectInstance(statusEffect));
             }
-        } else {
-            resetGlowColor(livingEntity);
         }
     }
 
     private static void setGlowColor(LivingEntity livingEntity) {
-        if (FabricLoader.getInstance().isModLoaded("coloredglowlib") && CGL != null)
-            if (CGL.hasCustomColor(livingEntity))
-                CGL.setColor(livingEntity, "soviet_union");
+        if (CGL.isAPIRegistered())
+            if (CGL.api.hasCustomColor(livingEntity))
+                CGL.api.setColor(livingEntity, "soviet_union");
     }
 
     private static void resetGlowColor(LivingEntity livingEntity) {
-        if (FabricLoader.getInstance().isModLoaded("coloredglowlib") && CGL != null)
-            CGL.clearColor(livingEntity, true);
+        if (CGL.isAPIRegistered() && Objects.equals(CGL.api.getColor(livingEntity), "soviet_union"))
+            CGL.api.clearColor(livingEntity, true);
     }
 
     private static boolean hasCorrectToolsEquipped(LivingEntity livingEntity) {
