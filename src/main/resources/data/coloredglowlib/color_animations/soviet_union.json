@@ -1,0 +1,77 @@
+{
+  "name": "soviet_union",
+  "colors": [
+    {
+      "color": "#C60000",
+      "active_for": 5
+    },
+    {
+      "color": "#CC3200",
+      "active_for": 5
+    },
+    {
+      "color": "#D24D00",
+      "active_for": 5
+    },
+    {
+      "color": "#D86800",
+      "active_for": 5
+    },
+    {
+      "color": "#DE8300",
+      "active_for": 5
+    },
+    {
+      "color": "#E39E00",
+      "active_for": 5
+    },
+    {
+      "color": "#E9B900",
+      "active_for": 5
+    },
+    {
+      "color": "#EED400",
+      "active_for": 5
+    },
+    {
+      "color": "#F3EF00",
+      "active_for": 5
+    },
+    {
+      "color": "#F9FA00",
+      "active_for": 5
+    },
+    {
+      "color": "#F3EF00",
+      "active_for": 5
+    },
+    {
+      "color": "#EED400",
+      "active_for": 5
+    },
+    {
+      "color": "#E9B900",
+      "active_for": 5
+    },
+    {
+      "color": "#E39E00",
+      "active_for": 5
+    },
+    {
+      "color": "#DE8300",
+      "active_for": 5
+    },
+    {
+      "color": "#D86800",
+      "active_for": 5
+    },
+    {
+      "color": "#D24D00",
+      "active_for": 5
+    },
+    {
+      "color": "#CC3200",
+      "active_for": 5
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 package net.IslamZaoui.sovietunionmememod;
 
+import net.IslamZaoui.sovietunionmememod.datagen.ModAdvancementsProvider;
 import net.IslamZaoui.sovietunionmememod.datagen.ModBlockTagProvider;
 import net.IslamZaoui.sovietunionmememod.datagen.ModModelProvider;
 import net.IslamZaoui.sovietunionmememod.datagen.ModRecipeProvider;
-import net.IslamZaoui.sovietunionmememod.datagen.ModAdvancementsProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

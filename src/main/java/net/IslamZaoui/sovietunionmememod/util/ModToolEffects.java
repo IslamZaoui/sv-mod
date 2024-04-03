@@ -1,12 +1,16 @@
 package net.IslamZaoui.sovietunionmememod.util;
 
 import net.IslamZaoui.sovietunionmememod.item.ModItems;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
+
 import java.util.List;
+
+import static net.IslamZaoui.sovietunionmememod.SVMod.CGL;
 
 public class ModToolEffects {
     private static final List<StatusEffectInstance> EFFECTS = List.of(
@@ -16,24 +20,51 @@ public class ModToolEffects {
     );
 
     public static void tickEffects(Entity entity) {
-        if (entity instanceof LivingEntity livingEntity && hasBothHandsEquipped(livingEntity)) {
-            evaluateEffects(livingEntity);
+        if (entity instanceof LivingEntity livingEntity) {
+            if (hasBothHandsEquipped(livingEntity))
+                evaluateEffects(livingEntity);
+            else {
+                resetGlowColor(livingEntity);
+            }
         }
     }
 
     private static void evaluateEffects(LivingEntity livingEntity) {
-        if (hasCorrectToolsEquipped(livingEntity)) {
+        if (hasCorrectToolsEquipped(livingEntity))
             addStatusEffects(livingEntity);
-        }
     }
 
     private static void addStatusEffects(LivingEntity livingEntity) {
+        boolean hasAllEffects = true;
+
         for (StatusEffectInstance statusEffect : ModToolEffects.EFFECTS) {
-            boolean hasEntityEffect = livingEntity.hasStatusEffect(statusEffect.getEffectType());
-            if (!hasEntityEffect && hasCorrectToolsEquipped(livingEntity)) {
-                livingEntity.addStatusEffect(new StatusEffectInstance(statusEffect));
+            if (!livingEntity.hasStatusEffect(statusEffect.getEffectType())) {
+                hasAllEffects = false;
+                break;
             }
         }
+
+        if (hasCorrectToolsEquipped(livingEntity)) {
+            setGlowColor(livingEntity);
+            if (!hasAllEffects) {
+                for (StatusEffectInstance statusEffect : ModToolEffects.EFFECTS) {
+                    livingEntity.addStatusEffect(new StatusEffectInstance(statusEffect));
+                }
+            }
+        } else {
+            resetGlowColor(livingEntity);
+        }
+    }
+
+    private static void setGlowColor(LivingEntity livingEntity) {
+        if (FabricLoader.getInstance().isModLoaded("coloredglowlib") && CGL != null)
+            if (CGL.hasCustomColor(livingEntity))
+                CGL.setColor(livingEntity, "soviet_union");
+    }
+
+    private static void resetGlowColor(LivingEntity livingEntity) {
+        if (FabricLoader.getInstance().isModLoaded("coloredglowlib") && CGL != null)
+            CGL.clearColor(livingEntity, true);
     }
 
     private static boolean hasCorrectToolsEquipped(LivingEntity livingEntity) {
@@ -47,7 +78,6 @@ public class ModToolEffects {
     private static boolean hasBothHandsEquipped(LivingEntity livingEntity) {
         ItemStack mainHand = livingEntity.getMainHandStack();
         ItemStack offHand = livingEntity.getOffHandStack();
-
         return !mainHand.isEmpty() && !offHand.isEmpty();
     }
 }

@@ -25,7 +25,7 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
                         ModItems.SOVIET_UNION_FLAG,
                         Text.translatable("advancement.sovietunionmememod.title"),
                         Text.translatable("advancement.sovietunionmememod.description"),
-                        new Identifier(SVMod.MOD_ID,"textures/gui/advancements/backgrounds/soviet_union.png"),
+                        new Identifier(SVMod.MOD_ID, "textures/gui/advancements/backgrounds/soviet_union.png"),
                         AdvancementFrame.GOAL,
                         true,
                         true,

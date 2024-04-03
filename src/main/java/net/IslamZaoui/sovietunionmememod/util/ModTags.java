@@ -17,6 +17,7 @@ public class ModTags {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(SVMod.MOD_ID, name));
         }
     }
+
     public static class Items {
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(SVMod.MOD_ID, name));

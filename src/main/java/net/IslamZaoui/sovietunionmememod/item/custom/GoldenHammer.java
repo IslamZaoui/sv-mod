@@ -15,6 +15,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
 import java.util.List;
 
 public class GoldenHammer extends MiningToolItem {
@@ -25,7 +26,7 @@ public class GoldenHammer extends MiningToolItem {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("item.sovietunionmememod.golden_hammer.tooltip1"));
-        if(Screen.hasShiftDown()){
+        if (Screen.hasShiftDown()) {
             tooltip.add(Text.translatable("item.sovietunionmememod.golden_hammer.tooltip2"));
         }
     }
@@ -41,7 +42,7 @@ public class GoldenHammer extends MiningToolItem {
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        if(!world.isClient())
+        if (!world.isClient())
             ModToolEffects.tickEffects(entity);
         super.inventoryTick(stack, world, entity, slot, selected);
     }
