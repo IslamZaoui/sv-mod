@@ -20,6 +20,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.AXE_MINEABLE)
                 .forceAddTag(BlockTags.NEEDS_IRON_TOOL);
 
+        getOrCreateTagBuilder(ModTags.Blocks.GOLDEN_HAMMER_DOUBLE_DROPS_MINEABLE)
+                .forceAddTag(BlockTags.COAL_ORES)
+                .forceAddTag(BlockTags.IRON_ORES);
+
         getOrCreateTagBuilder(ModTags.Blocks.GOLDEN_SICKLE_MINEABLE)
                 .forceAddTag(BlockTags.HOE_MINEABLE)
                 .add(Blocks.COBWEB);

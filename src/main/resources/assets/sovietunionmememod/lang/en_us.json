@@ -6,8 +6,10 @@
   "item.sovietunionmememod.golden_hammer": "Golden Hammer",
   "subtitles.sovietunionmememod.sv_sound": "soviet union anthem playing",
   "item.sovietunionmememod.soviet_union_flag.tooltip": "§6Whoever does not miss the Soviet Union has no heart.",
-  "item.sovietunionmememod.golden_sickle.tooltip1": "§6Symbol of the Soviet Union's worker-peasant alliance.",
+  "item.sovietunionmememod.golden_sickle.tooltip1": "§6Symbol of the Soviet Union's agricultural labor.",
   "item.sovietunionmememod.golden_sickle.tooltip2": "Right click on Crops to harvest double the amount.",
-  "advancement.sovietunionmememod.title": "Rise of the red",
-  "advancement.sovietunionmememod.description": "§4make the Soviet Union proud!"
+  "item.sovietunionmememod.golden_hammer.tooltip1": "§6Symbol of the Soviet Union's industrial workers.",
+  "item.sovietunionmememod.golden_hammer.tooltip2": "Mine double the amount of coal and iron ores drops.",
+  "advancement.sovietunionmememod.title": "§cRise of the red §6☭",
+  "advancement.sovietunionmememod.description": "make the Soviet Union proud!"
 }

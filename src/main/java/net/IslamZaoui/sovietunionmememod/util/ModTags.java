@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> GOLDEN_HAMMER_MINEABLE = createTag("golden_hammer_mineable");
+        public static final TagKey<Block> GOLDEN_HAMMER_DOUBLE_DROPS_MINEABLE = createTag("golden_hammer_double_drops_mineable");
         public static final TagKey<Block> GOLDEN_SICKLE_MINEABLE = createTag("golden_sickle_mineable");
-
 
         public static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(SVMod.MOD_ID, name));
